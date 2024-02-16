@@ -1,0 +1,15 @@
+{
+  "name": "frontend-redirect",
+  "version": "1.0.0",
+  "repository": "git@github.com:pndek-in/frontend-redirect.git",
+  "author": "jal <jaluwibowoaji@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
