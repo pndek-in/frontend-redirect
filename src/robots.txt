@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /
+Allow: /$
+Allow: /aja
+
+# This allows the root (/) and /aja to be indexed but disallows all other URLs
