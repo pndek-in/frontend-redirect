@@ -1,6 +1,6 @@
 const redirect = (key, url) => {
   const mainWeb = process.env.MAIN_WEB
-  const delay = 3000 // 3 seconds
+  const delay = 5000
 
   setTimeout(() => {
     switch (key) {
