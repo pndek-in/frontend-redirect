@@ -8,7 +8,7 @@ const redirect = (key, url) => {
         location.href = url
         break
       case "home":
-        location.href = mainWeb
+        // location.href = mainWeb
         break
       case "not-found":
         location.href = `${mainWeb}/link-not-found`
